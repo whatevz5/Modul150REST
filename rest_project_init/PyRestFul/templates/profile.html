@@ -1,0 +1,66 @@
+<!--
+Author: Ethen Spielmann IABM15c
+Modul: 150
+Project: First Rest-API project
+File: Newsletter options file
+-->
+<html>
+<head>
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../static/css_js/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../static/css_js/mystyles.css">
+</head>
+<body>
+<!-- Navigation Start -->
+<nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="/index/">Home</a></li>
+        <li><a href="/logout/">Log out</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- Navigation End -->
+    <h1> Welcome to your Profile </h1>
+<!-- Table with newsletters -->
+<table class="striped">
+        <thead>
+          <tr>
+              <th>Newsletter</th>
+              <th></th>
+              <th>Subscribe</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Flower Power</td>
+            <td></td>
+            <td><button type="submit" class="btn green waves-effect waves-light">Subscribe</button></td>
+          </tr>
+          <tr>
+            <td>Cars Magazine</td>
+            <td></td>
+            <td><button type="submit" class="btn green waves-effect waves-light">Subscribe</button></td>
+          </tr>
+            <tr>
+            <td>Tech Blog</td>
+            <td></td>
+            <td><button type="submit" class="btn green waves-effect waves-light">Subscribe</button></td>
+          </tr>
+        </tbody>
+      </table>
+<!-- Table with newsletters END -->
+    <!-- form to see user info -->
+    <form action="/myinfo">
+        <button type="submit" class="btn blue waves-effect waves-light">Show me my Information</button>
+    </form>
+<!-- Footer start -->
+<div id="myfooter">
+    <p class="footer-text">Ethen Spielmann HIABM15c | BZZ | Modul 150/254</p>
+</div>
+<!-- Footer End -->
+<!-- JS Scripts link -->
+<script src="../static/css_js/materialize/js/materialize.min.js"></script>
+</body>   
+</html>

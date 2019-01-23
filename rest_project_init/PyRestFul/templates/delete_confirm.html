@@ -1,0 +1,34 @@
+<!--
+Author: Ethen Spielmann IABM15c
+Modul: 150
+Project: First Rest-API project
+File: File for user to confirm the delete of user data
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Confirm</title>
+</head>
+<body>
+<!-- text to change when decided to delete -->
+<p id="deleteText">Choose to delete...</p>
+
+<script>
+    // checking if user wants to really delete
+    var con = confirm('Are you sure you want to delete your account?');
+    if (con == true) {
+        document.getElementById('deleteText').innerHTML = "Account deleted!";
+        setTimeout(function(){
+        // wait 1.5 sec and redirect
+        window.location = "/deleteAccYes/";
+    }, 1500);
+
+    } else {
+        // cancel redirect back to profile
+        window.location = "/profile/";
+    }
+
+</script>
+</body>
+</html>

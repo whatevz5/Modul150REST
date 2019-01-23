@@ -1,0 +1,12 @@
+#myfooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #ee6e73;
+}
+
+.footer-text {
+    color: white;
+    margin-left: 37%;
+}
